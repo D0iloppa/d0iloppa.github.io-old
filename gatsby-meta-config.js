@@ -117,6 +117,12 @@ module.exports = {
         description: '',
       },
 
+      {
+        date: '2015.08',
+        title: '한국사능력검정시험 1급',
+        description: '',
+      },
+
     ],
 
   },
