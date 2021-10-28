@@ -115,12 +115,32 @@ module.exports = {
         date: '2015.03',
         title: '2종보통운전면허',
         description: '',
+        issuer: '경찰청(운전면허시험관리단)',
       },
 
       {
         date: '2015.08',
         title: '한국사능력검정시험 1급',
         description: '',
+        issuer: '국사편찬위원회',
+      },
+      {
+        date: '2017.11',
+        title: '정보처리기사',
+        description: '',
+        issuer: '한국산업인력공단',
+      },
+      {
+        date: '2020.09',
+        title: '산업안전기사',
+        description: '',
+        issuer: '한국산업인력공단',
+      },
+      {
+        date: '2021.05',
+        title: 'GTQ포토샵 1급',
+        description: '',
+        issuer: '한국생산성본부(KPC)',
       },
 
     ],

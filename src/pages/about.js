@@ -16,8 +16,8 @@ export default ({ data }) => {
       <SEO title="About" />
       <Bio author={author} language={language} />
       <TimeStampsSection timestamps={timestamps} />
-      <ProjectsSection projects={projects} />
       <CertificatesSection certificates={certificates} />
+      <ProjectsSection projects={projects} />      
     </Layout>
   );
 };
@@ -73,7 +73,8 @@ export const pageQuery = graphql`
           certificates {
             date
             title
-            description            
+            description    
+            issuer        
           }
         }
       }

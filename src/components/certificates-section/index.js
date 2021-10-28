@@ -8,7 +8,6 @@ const CertificatesSection = ({ certificates }) => {
   if (!certificates || certificates.length < 2) return null;
   return (
   <div className="certificates-section-wrapper">
-      <p>무조건 찍히는지 확인</p>
       <div className="certificates-section">
         <SectionHeader title="Certificates" />
         <div className="body">
@@ -17,6 +16,7 @@ const CertificatesSection = ({ certificates }) => {
               <div className="certificate" key={index}>
                 <div className="date">{certificate.date}</div>
                 <div className="title">{certificate.title}</div>
+                <div className="issuer">{certificate.issuer}</div>
                 <div className="description">{certificate.description}</div>
               </div>
             ),
