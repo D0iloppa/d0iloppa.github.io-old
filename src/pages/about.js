@@ -10,7 +10,7 @@ import CertSection from '../components/certificates-section';
 export default ({ data }) => {
   const metaData = data.site.siteMetadata;
   const { author, about, language } = metaData;
-  const { timestamps, projects } = about;
+  const { timestamps, projects, certificates } = about;
   return (
     <Layout>
       <SEO title="About" />
