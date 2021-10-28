@@ -5,6 +5,7 @@ import SEO from '../components/seo';
 import Bio from '../components/bio';
 import TimeStampsSection from '../components/timestamps-section';
 import ProjectsSection from '../components/projects-section';
+import CertSection from '../components/certificates-section';
 
 export default ({ data }) => {
   const metaData = data.site.siteMetadata;
@@ -16,6 +17,7 @@ export default ({ data }) => {
       <Bio author={author} language={language} />
       <TimeStampsSection timestamps={timestamps} />
       <ProjectsSection projects={projects} />
+      <CertSection certs={certificates} />
     </Layout>
   );
 };
@@ -66,6 +68,12 @@ export const pageQuery = graphql`
               googlePlay
               appStore
             }
+          }
+
+          certificates {
+            date
+            title
+            description            
           }
         }
       }
