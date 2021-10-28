@@ -7,8 +7,8 @@ import './style.scss';
 const CertSection = ({ certificates }) => {
   if (!certificates || certificates.length < 2) return null;
   return (
-    <p>무조건 찍히는지 확인</p>
-    <div className="certificates-section-wrapper">
+  <div className="certificates-section-wrapper">
+      <p>무조건 찍히는지 확인</p>
       <div className="certificates-section">
         <SectionHeader title="Certificates" />
         <div className="body">
