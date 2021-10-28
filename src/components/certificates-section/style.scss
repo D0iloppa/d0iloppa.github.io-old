@@ -1,12 +1,12 @@
 @use '../../styles/mixins'as *;
 
-.timestamps-section-wrapper {
+.certificates-section-wrapper {
   display: flex;
   justify-content: center;
   width: 100%;
   @include content-horizontal-padding;
 
-  .timestamps-section {
+  .tcertificates-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,7 +18,7 @@
       width: 100%;
       padding: 0 10px;
 
-      .timestamp {
+      .certificate {
         display: flex;
         justify-items: center;
 
@@ -65,7 +65,7 @@
           }
         }
 
-        .activity {
+        .title {
           line-height: 23px;
           width: 100%;
         }

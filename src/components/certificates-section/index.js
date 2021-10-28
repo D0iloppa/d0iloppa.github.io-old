@@ -4,7 +4,7 @@ import IconButtonBar from '../icon-button-bar';
 
 import './style.scss';
 
-const CertSection = ({ certificates }) => {
+const CertificatesSection = ({ certificates }) => {
   if (!certificates || certificates.length < 2) return null;
   return (
   <div className="certificates-section-wrapper">
@@ -12,12 +12,12 @@ const CertSection = ({ certificates }) => {
       <div className="certificates-section">
         <SectionHeader title="Certificates" />
         <div className="body">
-          {certificates.map((certificates, index) =>
+          {certificates.map((certificate, index) =>
             index === 0 ? null : (
-              <div className="certificates" key={index}>
-                <div className="date">{certificates.date}</div>
-                <div className="title">{certificates.title}</div>
-                <div className="description">{certificates.description}</div>
+              <div className="certificate" key={index}>
+                <div className="date">{certificate.date}</div>
+                <div className="title">{certificate.title}</div>
+                <div className="description">{certificate.description}</div>
               </div>
             ),
           )}
@@ -27,4 +27,4 @@ const CertSection = ({ certificates }) => {
   );
 };
 
-export default CertSection;
+export default CertificatesSection;
