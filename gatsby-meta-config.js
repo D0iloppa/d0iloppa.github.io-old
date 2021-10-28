@@ -14,8 +14,8 @@ module.exports = {
     name: `권도일`,
     bio: {
       role: `개발자`,
-      description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
-      thumbnail: 'zoomkoding.gif', // Path to the image in the 'asset' folder
+      description: ['세상을 이롭게 만드는', '언제나 즐거움을 만드는', '항상 성장하는', 'FULL STACK 지향하는'],
+      thumbnail: 'profile.jpg', // Path to the image in the 'asset' folder
     },
     social: {
       github: `https://github.com/d0iloppa`, // `https://github.com/zoomKoding`,
@@ -86,6 +86,7 @@ module.exports = {
         title: '교내 소프트웨어공학 팀 프로젝트',
         description: '풋살,농구 등 생활체육에 즉흥적 참여를 위해 GPS 기반으로 팀 매칭시켜주는 애플리케이션',
         techStack: ['android'],
+        thumbnailUrl:'',
       },
       {
         title: 'KEEP WALK',
@@ -117,7 +118,6 @@ module.exports = {
         description: '',
         issuer: '경찰청(운전면허시험관리단)',
       },
-
       {
         date: '2015.08',
         title: '한국사능력검정시험 1급',
