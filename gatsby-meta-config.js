@@ -112,6 +112,7 @@ module.exports = {
 
     certificates:[
       {
+        date: '2015.03',
         title: '	2종보통운전면허',
         description: '',
       },
