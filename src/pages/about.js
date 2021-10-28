@@ -17,7 +17,7 @@ export default ({ data }) => {
       <Bio author={author} language={language} />
       <TimeStampsSection timestamps={timestamps} />
       <ProjectsSection projects={projects} />
-      <CertSection certs={certificates} />
+      <CertSection certificates={certificates} />
     </Layout>
   );
 };
