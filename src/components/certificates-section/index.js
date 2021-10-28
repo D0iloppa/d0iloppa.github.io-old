@@ -5,7 +5,7 @@ import IconButtonBar from '../icon-button-bar';
 import './style.scss';
 
 const CertSection = ({ certificates }) => {
-  if (!certificates || timescertificatestamps.length < 2) return null;
+  if (!certificates || certificates.length < 2) return null;
   return (
     <div className="certificates-section-wrapper">
       <div className="certificates-section">
