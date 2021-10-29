@@ -70,6 +70,7 @@ export const pageQuery = graphql`
             github
             linkedIn
             email
+            instagram
           }
         }
       }

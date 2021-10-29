@@ -7,7 +7,8 @@ import PlayIcon from '@material-ui/icons/PlayArrowOutlined';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import AndroidIcon from '@material-ui/icons/Android';
 import AppleIcon from '@material-ui/icons/Apple';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import NaverIcon from '@material-ui/icons/Naver';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 import './style.scss';
 
@@ -29,6 +30,8 @@ const IconButtonBar = ({ links = {} }) => {
         return <EmailIcon {...props} />;
       case 'linkedIn':
         return <LinkedInIcon {...props} />;
+      case 'instagram':
+        return <InstagramIcon {...props} />;
       default:
         return <></>;
     }
