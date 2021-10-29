@@ -39,9 +39,10 @@
         }
 
         .thumbnail {
+          float:left;
           width: auto;
           height: auto;
-          max-width: 100%;
+          max-width: 45%;
           max-height: 600px;
           margin-bottom: 10px;
 

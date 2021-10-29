@@ -23,16 +23,34 @@ const TMISection = ({}) => {
           </div>
 
           <div className="bbomi">
+            <h1>Just watch my BBomi</h1>
             <div className="bbomi-gal">
-              <Image
+              <div className="row">
+                <Image
+                    className="thumbnail"
+                    src={"bbomi/pm03.jpg"}
+                    alt={"bbomi/pm03.jpg"}
+                  />
+                <Image
+                    className="thumbnail"
+                    src={"bbomi/pm02.jpg"}
+                    alt={"bbomi/pm02.jpg"}
+                  />
+              </div>
+              <div className="row">
+                <Image
+                    className="thumbnail"
+                    src={"bbomi/pm01.jpg"}
+                    alt={"bbomi/pm01.jpg"}
+                  />
+                <Image
                   className="thumbnail"
-                  src={"bbomi/pm03.jpg"}
-                  alt={"bbomi/pm03.jpg"}
-                />
-              <img src="/assets/bbomi/pm03.jpg"/>
-              <img src="/assets/bbomi/pm02.jpg"/>
-              <img src="/assets/bbomi/pm01.jpg"/>
-              <img src="/assets/bbomi/pm04.jpg"/>
+                  src={"bbomi/pm04.jpg"}
+                  alt={"bbomi/pm04.jpg"}
+                /> 
+              </div>
+              
+
             </div>
             <p> BBomi's moment of my Precious </p>   
           </div>
