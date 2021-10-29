@@ -20,6 +20,7 @@ module.exports = {
     social: {
       github: `https://github.com/d0iloppa`, // `https://github.com/zoomKoding`,
       linkedIn: ``, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
+      instagram: 'https://www.instagram.com/d01l_man/'
       email: `kdi3939@gmail.com`, // `zoomkoding@gmail.com`,
     },
   },
