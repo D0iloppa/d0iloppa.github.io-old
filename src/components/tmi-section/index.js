@@ -14,7 +14,8 @@ const TMISection = ({}) => {
             <p>위대해지고 싶은 것</p>
             <p>그것은 누구나</p>
             <p>마음 속 간직한 욕망이 아닐까 싶습니다.</p>
-
+            <br/>
+            <br/>
             <p>한낱 일기장으로 치부할 수도 있을</p>
             <p>나의 흔적, 나의 자취들이</p>
             <p>어느 한 사람의 마음 한 켠에서라도</p>
@@ -23,6 +24,11 @@ const TMISection = ({}) => {
 
           <div className="bbomi">
             <div className="bbomi-gal">
+              <Image
+                  className="thumbnail"
+                  src={"bbomi/pm03.jpg"}
+                  alt={"bbomi/pm03.jpg"}
+                />
               <img src="/assets/bbomi/pm03.jpg"/>
               <img src="/assets/bbomi/pm02.jpg"/>
               <img src="/assets/bbomi/pm01.jpg"/>
