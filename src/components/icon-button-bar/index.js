@@ -7,8 +7,7 @@ import PlayIcon from '@material-ui/icons/PlayArrowOutlined';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import AndroidIcon from '@material-ui/icons/Android';
 import AppleIcon from '@material-ui/icons/Apple';
-import NaverIcon from '@material-ui/icons/Naver';
-import InstagramIcon from '@mui/icons-material/Instagram';
+import InstagramIcon from '@material-ui/icons/Instagram';
 
 import './style.scss';
 
