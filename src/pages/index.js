@@ -68,6 +68,7 @@ export const pageQuery = graphql`
           }
           social {
             github
+            naver
             linkedIn
             instagram
             email            
