@@ -14,7 +14,7 @@ module.exports = {
     name: `권도일`,
     bio: {
       role: `개발자`,
-      description: ['세상을 이롭게 만드는', '언제나 즐거움을 만드는', '항상 성장하는', 'FULL STACK 지향하는'],
+      description: ['세상을 이롭게 만드는', '언제나 즐거움을 만드는', '항상 성장하는', 'FULL STACK 지향'],
       thumbnail: 'profile.jpg', // Path to the image in the 'asset' folder
     },
     social: {

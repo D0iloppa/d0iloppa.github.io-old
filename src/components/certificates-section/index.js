@@ -15,9 +15,9 @@ const CertificatesSection = ({ certificates }) => {
             index === 0 ? null : (
               <div className="certificate" key={index}>
                 <div className="date">{certificate.date}</div>
-                <div className="title">{certificate.title}</div>
-                <div className="issuer">{certificate.issuer}</div>
-                <div className="description">{certificate.description}</div>
+                  <div className="title">{certificate.title}</div>
+                  <div className="issuer">{certificate.issuer}</div>
+                  <div className="description">{certificate.description}</div>
               </div>
             ),
           )}

@@ -54,8 +54,9 @@
         .date {
           margin-left: 5px;
           margin-right: 5px;
-          width: 115px;
+          width: 20%;
           min-width: 115px;
+          font-size: 14px;
           color: #828282;
           align-self: center;
 
@@ -65,15 +66,16 @@
           }
         }
 
+
         .title {
           line-height: 23px;
-          width: 100%;
+          width: 50%;
         }
-        /*
+        
         .issuer{
-          line-height: 23px;
+          font-size: 14px;
+          width:30%;
         }
-        */
       }
     }
   }
