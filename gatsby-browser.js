@@ -5,3 +5,4 @@ import './src/styles/_global-style.scss';
 import './src/styles/_markdown-style.scss';
 import 'prismjs/themes/prism-tomorrow.css';
 import 'gatsby-remark-mathjax-ssr/mathjax.css';
+import './assets/musicplayer/musicplayer.html';
