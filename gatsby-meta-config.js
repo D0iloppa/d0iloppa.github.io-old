@@ -9,7 +9,7 @@ module.exports = {
       repo: `D0iloppa/d0iloppa.github.io`, // `zoomkoding/zoomkoding-gatsby-blog`,
     },
   },
-  ga: 'UA-134826755-2', // Google Analytics Tracking ID
+  ga: '', // Google Analytics Tracking ID
   author: {
     name: `권도일`,
     bio: {

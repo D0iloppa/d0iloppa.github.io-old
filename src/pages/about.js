@@ -6,6 +6,7 @@ import Bio from '../components/bio';
 import TimeStampsSection from '../components/timestamps-section';
 import ProjectsSection from '../components/projects-section';
 import CertificatesSection from '../components/certificates-section';
+import TMISection from '../components/tmi-section';
 
 export default ({ data }) => {
   const metaData = data.site.siteMetadata;
@@ -17,7 +18,8 @@ export default ({ data }) => {
       <Bio author={author} language={language} />
       <TimeStampsSection timestamps={timestamps} />
       <CertificatesSection certificates={certificates} />
-      <ProjectsSection projects={projects} />      
+      <ProjectsSection projects={projects} />
+      <TMISection />      
     </Layout>
   );
 };
