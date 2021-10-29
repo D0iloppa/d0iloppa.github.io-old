@@ -8,6 +8,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import AndroidIcon from '@material-ui/icons/Android';
 import AppleIcon from '@material-ui/icons/Apple';
 import InstagramIcon from '@material-ui/icons/Instagram';
+import NaverIcoon from '@material-ui/icons/Naver';
 
 import './style.scss';
 
@@ -31,6 +32,8 @@ const IconButtonBar = ({ links = {} }) => {
         return <LinkedInIcon {...props} />;
       case 'instagram':
         return <InstagramIcon {...props} />;
+      case 'naver':
+        return <NaverIcon {...props} />;;
       default:
         return <></>;
     }
