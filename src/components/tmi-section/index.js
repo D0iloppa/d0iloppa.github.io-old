@@ -8,6 +8,7 @@ const TMISection = ({}) => {
   return (
     <div className="tmi-section-wrapper">
     <div className="tmi-section">
+      <hr style="margin:10px;"/>
       <div className="body">
           <div className="front">
 
