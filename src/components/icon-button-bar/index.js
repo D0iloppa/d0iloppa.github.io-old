@@ -33,7 +33,7 @@ const IconButtonBar = ({ links = {} }) => {
       case 'instagram':
         return <InstagramIcon {...props} />;
       case 'naver':
-        return <NaverIcon {...props} />;;
+        return <a href="https://blog.naver.com/kdi3939"><img src =""></img></a>;;
       default:
         return <></>;
     }
