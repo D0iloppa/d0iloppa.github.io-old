@@ -24,7 +24,8 @@ const TMISection = ({}) => {
           </div>
 
           <div className="bbomi">
-            <h1>Just watch my BBomi</h1>
+            <SectionHeader title="Just watch my BBomi" />
+
             <div className="bbomi-gal">
               
                 <Image
@@ -46,6 +47,21 @@ const TMISection = ({}) => {
                   className="thumbnail"
                   src={"bbomi/pm04.jpg"}
                   alt={"bbomi/pm04.jpg"}
+                />
+                <Image
+                  className="thumbnail"
+                  src={"bbomi/pm05.jpg"}
+                  alt={"bbomi/pm05.jpg"}
+                />
+                <Image
+                  className="thumbnail"
+                  src={"bbomi/pm06.jpg"}
+                  alt={"bbomi/pm06.jpg"}
+                />
+                <Image
+                  className="thumbnail"
+                  src={"bbomi/pm07.jpg"}
+                  alt={"bbomi/pm07.jpg"}
                 />
             </div>
             <p> BBomi's moment of my Precious </p>   
