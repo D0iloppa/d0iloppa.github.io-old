@@ -8,10 +8,10 @@ const TMISection = ({}) => {
   return (
     <div className="tmi-section-wrapper">
     <div className="tmi-section">
-      <hr style="margin:10px;"/>
+      
       <div className="body">
           <div className="front">
-
+          <hr/>
             <p>위대해지고 싶은 것</p>
             <p>그것은 누구나</p>
             <p>마음 속 간직한 욕망이 아닐까 싶습니다.</p>
