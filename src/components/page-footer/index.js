@@ -11,7 +11,7 @@ const PageFooter = ({ author, githubUrl }) => (
         <a href={githubUrl}>{author}</a>
         &nbsp;powered by
         <a href="https://github.com/zoomKoding/zoomkoding-gatsby-blog" target='_blank'>
-          &nbsp;this-engine
+          &nbsp;this-theme
         </a>
       </p>
     </footer>
