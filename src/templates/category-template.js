@@ -9,8 +9,7 @@ import PostsPageHeader from '../components/posts-page-header';
 
 export default ({ pageContext }) => {
   const { edges, currentCategory } = pageContext;
-  // const posts = edges.map(({ node }) => new Post(node));
-  const posts = pageContext.allMarkdownRemark.edges.map(({ node }) => new Post(node));
+  const posts = edges.map(({ node }) => new Post(node));  
   const categories = ['All', ...getSortedCategoriesByCount(posts)];
   const tabIndex = categories.findIndex((tab) => tab === currentCategory);
 
