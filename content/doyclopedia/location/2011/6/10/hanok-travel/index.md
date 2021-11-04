@@ -1,5 +1,5 @@
 ---
-emoji: 🔮
+emoji: 👨‍💻
 title: 전주 한옥마을 (Feat.최민재)
 date: '2011-06-10 14:21:20'
 author: 도일
@@ -8,7 +8,7 @@ categories: Doyclopedia
 ---
 
 이사 가기 전에 살던 집 바로 앞에 있던 한옥마을,
-
+npm
  
 
 마음먹고 돌아다니는 것과 
