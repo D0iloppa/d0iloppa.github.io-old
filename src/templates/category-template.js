@@ -7,6 +7,8 @@ import Post from '../models/post';
 import PostsPageBody from '../components/posts-page-body';
 import PostsPageHeader from '../components/posts-page-header';
 
+import { getSortedCategoriesByCount } from '../utils/helpers';
+
 export default ({ pageContext }) => {
   const { edges, currentCategory } = pageContext;
   const posts = edges.map(({ node }) => new Post(node));  
